@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="PK — Frontend Developer portfolio. Selected projects, skills, experience and contact.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="PK — Frontend Developer">
+  <meta property="og:description" content="Modern frontend developer portfolio.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="/">
+  <link rel="stylesheet" href="css/style.css">
+  <title>PK — Frontend Developer</title>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="PK home"><span>PK</span><i>•</i></a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" type="button" aria-label="Toggle theme">◐</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Available for freelance work</p>
+        <h1>I build <em>clean</em><br>digital experiences.</h1>
+        <p class="lede">Frontend developer focused on responsive interfaces, thoughtful UX and production-ready web experiences.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#work">View selected work <span>↘</span></a>
+          <a class="btn ghost" href="#contact">Let's talk</a>
+        </div>
+      </div>
+      <aside class="live-card" aria-label="Live local information">
+        <div class="live-top"><span>LIVE / LOCAL</span><span id="liveDate">--</span></div>
+        <div class="live-time" id="liveTime">--:--:--</div>
+        <div class="weather">
+          <div class="weather-icon" id="weatherIcon">☁</div>
+          <div><strong id="temperature">--°</strong><span id="weatherText">Loading weather…</span></div>
+        </div>
+        <div class="weather-meta"><span id="location">Detecting location…</span><span id="wind">-- km/h</span></div>
+        <small>Weather: Open-Meteo · no API key</small>
+      </aside>
+    </section>
+
+    <section class="ticker" aria-label="Capabilities">
+      <span>HTML</span><b>✦</b><span>CSS</span><b>✦</b><span>JavaScript</span><b>✦</b><span>Responsive UI</span><b>✦</b><span>UI/UX</span><b>✦</b><span>GitHub</span>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-head"><span>01 / SELECTED WORK</span><p>Small set of projects that show how I think, design and build.</p></div>
+      <div class="projects">
+        <article class="project featured">
+          <div class="project-visual photo-project"><img src="https://www.panfone.com/images/topics/free-download-music.jpg" alt="Music app displayed on a laptop" loading="lazy"><span>01</span><div class="project-overlay"><b>SONIQ</b><small>Music discovery / player</small></div></div>
+          <div class="project-info"><div><p class="tag">WEB APP · UI ENGINEERING</p><h2>SONIQ</h2></div><a href="#" class="arrow" aria-label="Project link">↗</a><p>A responsive music-player interface with API-ready architecture, dynamic states and mobile-first interaction.</p></div>
+        </article>
+        <article class="project">
+          <div class="project-visual photo-project"><img src="https://postimg.easyarticlemarketing.com/illustrations/ce26cffb-17ea-4df2-a6a1-643a26188aba/screen-mirroring-brawl-stars-from-a-phone-to-a-macbook-for-quick-setup.jpg" alt="Game interface displayed across laptop and phone" loading="lazy"><span>02</span><div class="project-overlay"><b>CARROM CLASH</b><small>Responsive game interface</small></div></div>
+          <div class="project-info"><div><p class="tag">GAME · JAVASCRIPT</p><h2>CARROM CLASH</h2></div><a href="#" class="arrow" aria-label="Project link">↗</a><p>Canvas-based game interface designed around touch controls, responsive layouts and clear game states.</p></div>
+        </article>
+        <article class="project">
+          <div class="project-visual photo-project"><img src="https://miro.medium.com/v2/resize%3Afit%3A2000/1%2AVHhlaCH_cBNZ9LfK-71hPQ.jpeg" alt="Crypto portfolio dashboard displayed on laptop" loading="lazy"><span>03</span><div class="project-overlay"><b>GRACASH</b><small>Crypto dashboard / ecosystem</small></div></div>
+          <div class="project-info"><div><p class="tag">PRODUCT · DESIGN SYSTEM</p><h2>GRACASH</h2></div><a href="#" class="arrow" aria-label="Project link">↗</a><p>A scalable visual system for a multi-product crypto ecosystem, including dashboards and utility pages.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-head"><span>02 / ABOUT</span><p>Build less noise. Create more clarity.</p></div>
+      <div class="about-grid">
+        <div class="about-visual">
+          <img class="portrait" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=85" alt="Professional portrait" loading="lazy">
+          <img class="workspace" src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=85" alt="Modern creative workspace" loading="lazy">
+        </div>
+        <div><h2>Design-minded<br><em>developer.</em></h2>
+        <div class="about-copy"><p>I enjoy turning ideas into interfaces that feel simple, fast and intentional. My work sits between visual design and frontend engineering.</p><p>I care about responsive behavior, accessibility, performance and maintainable code — not just how a page looks in one screenshot.</p><a class="text-link" href="#contact">Start a conversation ↗</a></div>
+      </div>
+    </section>
+
+    <section class="visual-break section">
+      <div class="workspace-wide">
+        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1800&q=85" alt="Developer workspace with laptop and notebook" loading="lazy">
+        <div><span>THE WORKSPACE</span><strong>Ideas → Interface → Code</strong></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-head"><span>03 / SKILLS</span><p>Tools and disciplines I use to turn concepts into working products.</p></div>
+      <div class="skills-grid">
+        <div><span>01</span><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · Responsive Design · API Integration</p></div>
+        <div><span>02</span><h3>Design</h3><p>UI systems · Layout · Typography · UX thinking · Prototyping</p></div>
+        <div><span>03</span><h3>Workflow</h3><p>GitHub · VS Code · Vercel · Git · Browser testing</p></div>
+        <div><span>04</span><h3>Next</h3><p>PHP · WordPress · Python · AI/ML · Backend-ready architecture</p></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-box">
+        <p class="eyebrow">HAVE A PROJECT?</p>
+        <h2>Let's make something<br><em>worth visiting.</em></h2>
+        <a class="big-link" href="mailto:hello@example.com">hello@example.com ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> PK</span><span>Built with HTML · CSS · JS</span><a href="#home">Back to top ↑</a></footer>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
